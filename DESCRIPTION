@@ -1,0 +1,18 @@
+Package: FUSIKA
+Title: FUSIKA - Easy Custom Visualization Toolkit
+Version: 0.1.0
+Authors@R: 
+    person(given = "Thanh Dat Nguyen", 
+           email = "thanhdatnguyen.1203@gmail.com", 
+           role = c("aut", "cre"))
+Description: Provide customizable and professional plotting functions such as heatmap, violin plot, ROC curve, etc. Designed for easy visualization.
+Depends: R (>= 4.1.0)
+Imports:
+    ComplexHeatmap,
+    circlize
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+
